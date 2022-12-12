@@ -1,0 +1,21 @@
+/* <!-- Nicolas Schappaugh 12-12-2022 --> */
+
+.screen {
+  height: 4em;
+  width: 100%;
+
+  margin-bottom: 0.5em;
+  padding: 0 0.5em;
+  border-radius: 10px;
+
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+}

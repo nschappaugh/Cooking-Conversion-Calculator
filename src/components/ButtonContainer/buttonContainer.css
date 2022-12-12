@@ -1,0 +1,19 @@
+/* <!-- Nicolas Schappaugh 12-12-2022 --> */
+
+.buttonContainer {
+  width: 100%;
+  height: calc(100% - 110px);
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+@media (max-width: 480px) {
+  .buttonContainer {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+  }
+}

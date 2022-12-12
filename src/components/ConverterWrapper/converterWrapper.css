@@ -1,0 +1,22 @@
+/* <!-- Nicolas Schappaugh 12-12-2022 --> */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: silver;
+  padding: 2em;
+  border-radius: 15px;
+  max-width: 60em;
+}

@@ -1,0 +1,39 @@
+/* <!-- Nicolas Schappaugh 12-12-2022 --> */
+
+button {
+  border: none;
+  background-color: #a3a3a3;
+  font-size: 1.5em;
+  color: #ededed;
+  font-weight: bold;
+
+  padding: 0.25em;
+  border-radius: 10px;
+  outline: none;
+}
+
+
+button.--active {
+  background-color: #006e12;
+  color: #ffffff;
+}
+button.--active:hover {
+  background-color: #00570e;
+  cursor: pointer;
+}
+
+button.equals {
+  background-color: #c90000;
+  color: #ffffff;
+}
+
+button.equals:hover {
+  background-color: #960000;
+  cursor: pointer;
+}
+
+@media (min-width: 480px) {
+  button.equals {
+   grid-column: 3 / 5;
+  }
+}
